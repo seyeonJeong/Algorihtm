@@ -22,7 +22,7 @@ for i in range(n):
 
 for i in range(h):
     for j in range(w):
-        print(a[i][j], end=' ')
+        print(a[i][j], end=' ') #이차원 배열 print
     print()
 
 
