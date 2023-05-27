@@ -1,4 +1,7 @@
 
 
-a = input()
-print(len(a))
+while True:
+    n = input()
+    if n == '.':
+        break
+
