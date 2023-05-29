@@ -5,6 +5,7 @@ while True:
     if str == '.':
         break
 
+    #chk를 true로 설정한다.
     chk = True
     stack = []
 
