@@ -1,29 +1,50 @@
 import sys
 
 n = int(sys.stdin.readline())
-
-nums = []
-for i in range(n):
-    a = int(sys.stdin.readline())
-    nums.append(a)
-
+flag = 0
+cur = 0
 stack = []
+answer = []
+for i in range(n):
+    num = int(sys.stdin.readline())
 
-# ing..
-for j in range(n):
-    if j == nums[j]:
+    while cur <= num:
+        stack.append(num)
+        answer.append('+')
+        cur += 1
+
+    if stack[-1] == num:
         stack.pop()
-        print('-')
+        answer.append('-')
     else:
-        stack.append(j)
-        print('+')
+        print('NO')
+        flag = 1
+        break
 
-k = 0
-while True:
-    k += 1
-    stack.append(k)
-    print('+')
-    if k == nums[j]:
-        stack.pop()
-        print('-')
+if flag == 0:
+    for i in answer:
+        print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
