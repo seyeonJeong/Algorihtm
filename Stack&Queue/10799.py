@@ -13,3 +13,5 @@ for i in bar:
         else: # 이전 값이 ) 인 경우, 막대기의 끝이라는 뜻으로 +1을 해준다.
             stack.pop()
             result += 1
+
+print(result)
