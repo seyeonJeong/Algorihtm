@@ -1,9 +1,8 @@
-import sys
 
-bar = list(sys.stdin.readline())
+bar = list(input())
 stack = []
 result = 0
-for i in bar:
+for i in range(len(bar)):
     if bar[i] == '(': # 만약 (이면 그냥 스택에 추가한다.
         stack.append('(')
     else: # 만약 ) 이면 두가지 경우로 나뉜다.
