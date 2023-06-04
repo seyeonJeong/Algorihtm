@@ -6,6 +6,7 @@ stack_l = []
 #두개의 스택으로 나누는 문제이다. 커서를 따로 구현하지 않고 pop append로 해결해야한다
 n = int(sys.stdin.readline())
 
+# 문제의 접근법을 다양하게 생각하는 훈련을 해야함
 for i in range(n):
     ope = input()
     if ope == 'L':
