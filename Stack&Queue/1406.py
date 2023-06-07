@@ -7,6 +7,7 @@ stack_l = []
 n = int(sys.stdin.readline())
 
 # 문제의 접근법을 다양하게 생각하는 훈련을 해야함
+# 6/7 다시 시작
 for i in range(n):
     ope = input()
     if ope == 'L':
