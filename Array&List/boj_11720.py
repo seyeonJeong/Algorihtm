@@ -1,7 +1,7 @@
 import sys
 
 n = int(sys.stdin.readline())
-nums = input()
+nums = list(sys.stdin.readline().strip())
 sum = 0
 
 for i in nums:
