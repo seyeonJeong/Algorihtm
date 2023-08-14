@@ -1,5 +1,4 @@
 def solution(phone_book):
-    headHash = 0
     answer = True
 
     phone_book.sort()
